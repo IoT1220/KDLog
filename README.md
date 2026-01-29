@@ -137,3 +137,7 @@ output-stage1
    ```
 
    注意修改`--model`参数为刚才得到的`xxx-merged`文件夹路径，如果使用fewshot，你也可以指定`--fewshot_path xxxx_fewshot.json`参数
+
+
+   # Knowledge Distillation
+
