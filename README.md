@@ -1,28 +1,4 @@
-# Prompt-tuning
-├── claude_zeroshot-cot-stage1.py
-├── data
-│   └── output.json
-├── mistral_fewshot-cot-stage2.py
-├── monitor_gpu.sh
-├── output-stage1
-│   ├── claude.log
-│   └── claude_results.json
-├── output-stage2-fewshot-cot
-│   ├── mistral.log
-│   └── mistral_results.json
-├── README.md
-├── test_case_id.txt
-└── tree.txt
 
-(base) ➜  dataset3 ls
-claude_zeroshot-cot-stage1.py     output-stage2-fewshot-cot
-data                              output-stage2-fewshot-nocot
-mistral_fewshot-cot-stage2.py     output-stage2-zeroshot-cot
-mistral_fewshot-nocot-stage2.py   output-stage2-zeroshot-nocot
-mistral_zeroshot-cot-stage2.py    README.md
-mistral_zeroshot-nocot-stage2.py  test_case_id.txt
-monitor_gpu.sh                    tree.txt
-output-stage1
 
 
 
@@ -112,4 +88,32 @@ output-stage1
 
 
    # Knowledge Distillation
+
+   # Project Structure
+
+   ## Prompt-tuning
+├── claude_zeroshot-cot-stage1.py
+├── data
+│   └── output.json
+├── mistral_fewshot-cot-stage2.py
+├── monitor_gpu.sh
+├── output-stage1
+│   ├── claude.log
+│   └── claude_results.json
+├── output-stage2-fewshot-cot
+│   ├── mistral.log
+│   └── mistral_results.json
+├── README.md
+├── test_case_id.txt
+└── tree.txt
+
+(base) ➜  dataset3 ls
+claude_zeroshot-cot-stage1.py     output-stage2-fewshot-cot
+data                              output-stage2-fewshot-nocot
+mistral_fewshot-cot-stage2.py     output-stage2-zeroshot-cot
+mistral_fewshot-nocot-stage2.py   output-stage2-zeroshot-nocot
+mistral_zeroshot-cot-stage2.py    README.md
+mistral_zeroshot-nocot-stage2.py  test_case_id.txt
+monitor_gpu.sh                    tree.txt
+output-stage1
 
