@@ -1,4 +1,4 @@
-# HermesLog
+# KDLog
 
 HermesLog is a novel federated split learning (FSL) framework. It enables collaborative training while ensuring data privacy and reducing the computational load on the client. It not only significantly lowers local computational load and privacy leakage but also preserves high diagnostic accuracy.
 
