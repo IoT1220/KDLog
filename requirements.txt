@@ -1,0 +1,10 @@
+Python==3.7.1
+PyTorch==1.9.0
+cuda==10.2
+Openai==1.40.6
+vllm==0.5.0.post1
+loguru==0.5.3
+tqdm==4.66.4
+vllm==0.5.0.post1
+transformers==4.43.2
+torch==2.3.0
